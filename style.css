@@ -1,0 +1,336 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: gold;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+#input0 {
+    background-color: gold;
+}
+
+span {
+    color: gold;
+}
+
+.header_top {
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #663300;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.city {
+    /* border: 2px solid red; */
+    width: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.city_show {
+    font: 16px HelveticaNeue, sans-serif;
+    margin: 10px;
+    padding-left: 50px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    transition: .3w all;
+}
+
+.header_enroll-f_left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.buttompriom {
+    background-color: gold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: color 0.5s linear;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.buttompriom:hover {
+    padding: 16px;
+}
+
+.js-enroll-button {
+    color: #663300;
+}
+
+.callback_block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.callback {
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.callback:hover {
+    color: goldenrod;
+}
+
+.feedback {
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.feedback:hover {
+    color: goldenrod;
+}
+
+.header_sovials {
+    display: flex;
+    padding: 5px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.facebook-red {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    transition: color 0.5s linear;
+}
+
+.facebook-red:hover {
+    height: 41px;
+    width: 41px;
+}
+
+.insta-red {
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    transition: color 0.5s linear;
+}
+
+.insta-red:hover {
+    height: 41px;
+    width: 41px;
+}
+
+#input0 {
+    border-radius: 7px;
+}
+
+.wrap {
+    height: 120px;
+    width: 100%;
+}
+
+.wrapin {
+    display: flex;
+    justify-content: center;
+    /* align-items: baseline; */
+}
+
+ul {
+    list-style: none;
+}
+
+.f_left {
+    float: left;
+    font: 16px/48px HelveticaNeue-Medium, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 19px 15px;
+    padding-top: 5px;
+}
+
+#idfirstil {
+    padding: 0px;
+}
+
+.list {
+    padding: 19px 15px;
+}
+
+.link {
+    color: #663300;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.link:hover {
+    color: gold;
+}
+
+#logo {
+    position: relative;
+    top: -14%;
+    right: 15%;
+    height: 170px;
+    width: 150px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 400px;
+}
+
+.d-block {
+    height: 400px;
+}
+
+
+/* 
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.slider {
+    max-width: 800px;
+} */
+
+
+/* дополнительные стили для этого примера */
+
+
+/* .slider__items {
+    counter-reset: slide;
+} */
+
+
+/* .slider__item {
+    position: relative;
+    counter-increment: slide;
+}
+
+.slider__item::after {
+    content: counter(slide);
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.img-fluid {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}*/
+
+.main {
+    border: 1px solid black;
+    height: 300px;
+    width: 100%;
+    padding: 0px;
+}
+
+.actual_div {
+    padding-top: 20px;
+    display: flex;
+}
+
+.box {
+    height: 25px;
+    width: 5px;
+    background-color: #663300;
+    margin-left: 140px;
+}
+
+.actual {
+    color: #663300;
+    font: 20px HelveticaNeue-Medium, sans-serif;
+    margin-left: 10px;
+}
+
+.varinfo {
+    border: 2px solid black;
+    padding-top: 10px;
+    display: flex;
+}
+
+.specialist {
+    border: 5px solid #663300;
+    width: 200px;
+    height: 349px;
+    margin-left: 135px;
+}
+
+.aleksandphoto {
+    width: 200px;
+    height: 300px;
+}
+
+.red_spec_today {
+    width: 200px;
+    height: 300px;
+}
+
+.aleksandrinfo {
+    background-color: #663300;
+    width: 202px;
+    height: 50px;
+    margin-left: -1px;
+    flex-direction: column;
+}
+
+.todayaleksandr {
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.otch {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.actual_h1 {
+    font: 30px HelveticaNeue-Medium, sans-serif;
+    color: #663300;
+}
+
+.info_about_work {
+    color: #663300;
+}
+
+.bottom {
+    border: 1px solid blue;
+    height: 200px;
+    width: 100%;
+}
+
+
+/* .nav_link{
+   color:rgb(255, 255, 255);
+   text-decoration: none; 
+   transition: color 0.2s linear;
+} */
+
+
+/* .nav_link:hover {
+    color:rgb(0, 0, 0)
+} */
